@@ -187,4 +187,63 @@ The only thing the ``` . ``` operator does is parsing spaces, since what's actua
 happening is that you are using a lot of new names of the form ``` obj.member ```
 
 
+## Functions
 
+Functions are defined with ```var1 var2 ... varN >= {instructions} ```. Thanks to
+the magic of _everything is a string_, functions are anonymous by default, which
+fosters a functional style. The parameters of a function are inside the ```this```
+object.
+
+In order to call a function, you just have to put it there
+
+```
+A = 1
+B = 2
+A B >= {return this.A* ++ this.B*}
+>> 12
+```
+
+If you want to name a function, it's simple. Since everything is a string:
+
+```
+func = A B >= {return this.A* ++ this.B*}
+```
+
+And then to use it
+
+```
+func.A = 1
+func.B = 2
+func’
+>> 12
+```
+
+It's clear then that a function is an object whose attributes are its parameters
+and the ``` > ``` has the instructions of the function. The attributes of a function
+are accessed inside its code with the name ``` this ```. The curly braces indicate
+that a string can be read as instructions.
+
+## Reserved words
+
+_Reserved_ is more of a suggestion. It means that that name is in use when the program
+starts. Obviously the programmer has the freedom to redefine everything.
+
+### namespace
+
+namespace is an object that contains all the strings of the program that have been
+used (i.e. names that have had a value assigned that isn't itself). It includes
+itself, of course.
+
+```
+namespace 
+>> namespace
+namespace*
+>> namespace print .... (all the other reserved words)
+A = 1
+namespace
+>> namespace print .... (reserved words) ... A
+namespace.A*
+>> 1
+namespace.namespace.A*
+>> 1
+```
