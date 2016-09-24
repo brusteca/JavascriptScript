@@ -251,7 +251,11 @@ namespace.namespace.A*
 ## Other proposed names
 
 phpscript
+
 stringscript
+
 bashscript
+
 JavaScriptscript (note the capitalization)
+
 JavaScript♭
