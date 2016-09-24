@@ -145,3 +145,46 @@ A === A ? its true! : its fals!
 ```
 
 
+## Objects
+
+Objects are also strings. An object is a string that contains spaces (it can contain
+zero spaces, and therefore every string is also an object). They're represented like
+``` name1 name2 name3 ...```
+
+To access the members of an object you use the ``` . ``` operator:
+
+```
+A = 1 2
+A.1
+>> A.1
+A.1'
+>> A.1
+A.1 = B
+A.1'
+>> B
+```
+
+The members of an object are all new names. ``` . ``` is a  reserved character and 
+when using it inside a string, it implicitly concatenates a space and the new name to 
+the value the name referenced before. For example:
+
+```
+A = 1
+A*
+>> 1
+A.B = X
+A*
+>> 1 B
+A.B*
+>> X
+
+A.C = Y
+A*
+>> 1 B C
+```
+
+The only thing the ``` . ``` operator does is parsing spaces, since what's actually
+happening is that you are using a lot of new names of the form ``` obj.member ```
+
+
+
