@@ -8,7 +8,7 @@ Comparisons are always with strings.
 10 < 5 because 1 < 5.
 Objects are strings, and functions too.
 
-Everything is global.
+Everything is global and case insensitive.
 
 ## Operators
 
