@@ -247,3 +247,12 @@ namespace.A*
 namespace.namespace.A*
 >> 1
 ```
+
+
+## Other proposed names
+
+phpscript
+stringscript
+bashscript
+JavaScriptscript (note the capitalization)
+JavaScript♭
