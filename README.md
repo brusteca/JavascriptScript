@@ -2,7 +2,6 @@
 
 ## A string oriented language for the 22nd century
 
-***
 
 Everything is a string, space (any unicode whitespace) is a separator.
 Comparisons are always with strings. 
