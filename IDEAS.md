@@ -6,3 +6,7 @@
 3 + -4 = "3-4"
 -3 + -4 = "-7"
 ```
+
+### Regexes with side effects
+
+Thanks to /u/Daggerbot
