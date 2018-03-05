@@ -10,3 +10,9 @@
 ### Regexes with side effects
 
 Thanks to /u/Daggerbot
+
+
+### More boolean operators
+The `but` operator (if x == 3 but y == 4)
+
+The `then` operator
