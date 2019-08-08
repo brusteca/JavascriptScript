@@ -37,3 +37,5 @@ There will be several possible values, so a way of specifing which one has to be
 This would allow trees to be implemented with names, not just linked lists. Also, this would make the `^` operator be consistent with `*`, since they both would result in multiple possiblities.
 
 
+### 💪 Emojis as part of the syntax 😍
+Emojis 🤔 are the new way of communication 💌, so we should embrace them 🤗 as part of our language 👅. This way, it's really a 22nd century language and up do date 📅 with the current trends 📈.
