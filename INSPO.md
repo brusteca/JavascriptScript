@@ -10,3 +10,5 @@ End For
 https://docs.brightsign.biz/plugins/servlet/mobile?contentId=984543#content/view/984543
 
 What will `CreateObject("String")` do?
+
+http://www.zifyoip.com/wysiscript/sigbovik.html
