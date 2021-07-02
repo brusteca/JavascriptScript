@@ -39,3 +39,6 @@ This would allow trees to be implemented with names, not just linked lists. Also
 
 ### 💪 Emojis as part of the syntax 😍
 Emojis 🤔 are the new way of communication 💌, so we should embrace them 🤗 as part of our language 👅. This way, it's really a 22nd century language and up do date 📅 with the current trends 📈.
+
+### Access modifiers
+Private members can **only** be accessed by the own class. Public members can **only** be accessed by external class. That's right, they cannot be accessed by internal methods. This keeps concerns clear and separated.
