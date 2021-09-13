@@ -4,7 +4,7 @@
 
 
 Everything is a string, space (any unicode whitespace) is a separator.
-Comparisons are always with strings. 
+Comparisons are always with strings.
 10 < 5 because 1 < 5.
 Objects are strings, and functions too.
 
@@ -85,7 +85,7 @@ A === B
 >> fals
 ```
 
-The ``` ==== ``` operator compares immediate values. It's syntactic sugar for 
+The ``` ==== ``` operator compares immediate values. It's syntactic sugar for
 ``` x* === y* ```.
 
 ```
@@ -96,7 +96,7 @@ A ==== B
 >> true
 ```
 
-The ``` ===== ``` operator compares final values. It's syntactic sugar for 
+The ``` ===== ``` operator compares final values. It's syntactic sugar for
 ``` x' === y' ```.
 
 ```
@@ -108,14 +108,14 @@ A ===== C
 >> true
 ```
 
-The ``` + ``` operator concatenates. 
+The ``` + ``` operator concatenates.
 
 ```
 1 + 2
 >> 12
 ```
 
-The ``` ++ ``` operator concatenates immediate values. 
+The ``` ++ ``` operator concatenates immediate values.
 
 ```
 1 = A
@@ -124,7 +124,7 @@ The ``` ++ ``` operator concatenates immediate values.
 >> AB
 ```
 
-The ``` +++ ``` operator concatenates final values. 
+The ``` +++ ``` operator concatenates final values.
 
 ```
 1 = A
@@ -142,6 +142,9 @@ The ternary operator ``` ? : ``` does contitionals:
 A === A ? its true! : its fals!
 >> its true!
 ```
+
+
+In JavascriptScript we don't believe in math, instead, computations are done by splitting or appending strings. You won't need anything else, trust me.
 
 
 ## Objects
@@ -163,8 +166,8 @@ A.1'
 >> B
 ```
 
-The members of an object are all new names. ``` . ``` is a  reserved character and 
-when using it inside a string, it implicitly concatenates a space and the new name to 
+The members of an object are all new names. ``` . ``` is a  reserved character and
+when using it inside a string, it implicitly concatenates a space and the new name to
 the value the name referenced before. For example:
 
 ```
@@ -234,7 +237,7 @@ used (i.e. names that have had a value assigned that isn't itself). It includes
 itself, of course.
 
 ```
-namespace 
+namespace
 >> namespace
 namespace*
 >> namespace print .... (all the other reserved words)
